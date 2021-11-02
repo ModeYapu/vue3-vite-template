@@ -1,12 +1,17 @@
 {
-	"name": "vue3-vite",
-	"version": "0.0.0",
+	"name": "vue3-vite-template",
+	"version": "1.0.0",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
 		"serve": "vite preview",
 		"prepare": "husky install",
 		"test": "jest"
+	},
+	"jest": {
+		"transform": {
+			"^.+\\.[t|j]s?$": "babel-jest"
+		}
 	},
 	"dependencies": {
 		"axios": "^0.24.0",
@@ -17,11 +22,15 @@
 		"vuex": "^4.0.2"
 	},
 	"devDependencies": {
+		"@babel/plugin-transform-runtime": "^7.16.0",
+		"@babel/preset-env": "^7.16.0",
+		"@babel/runtime": "^7.16.0",
 		"@commitlint/cli": "^14.1.0",
 		"@commitlint/config-conventional": "^14.1.0",
 		"@types/jest": "^27.0.2",
 		"@vitejs/plugin-vue": "^1.9.3",
 		"@vue/test-utils": "^2.0.0-rc.16",
+		"babel-jest": "^26.3.0",
 		"commitizen": "^4.2.4",
 		"cz-conventional-changelog": "^3.3.0",
 		"cz-customizable": "^6.3.0",
