@@ -1,10 +1,15 @@
 <template>
-    <div>Home</div>
-    <router-link to='/about'>Home</router-link>
+	<div class="title">Home</div>
+	<router-link to="/about">Home</router-link>
 </template>
 
 <script>
-    export default {
-        name: 'Home'
-    }
+export default {
+	name: 'home'
+}
 </script>
+<style lang="stylus">
+.title {
+  font-size: 16px;
+}
+</style>
