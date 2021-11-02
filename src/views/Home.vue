@@ -5,7 +5,7 @@
 
 <script>
 export default {
-	name: 'home'
+	name: 'home-view'
 }
 </script>
 <style lang="stylus">
