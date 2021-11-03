@@ -2791,7 +2791,7 @@
     "is-date-object" "^1.0.1"
     "is-symbol" "^1.0.2"
 
-"esbuild-windows-64@^0.13.8", "esbuild-windows-64@0.13.8":
+"esbuild-windows-64@0.13.8":
   "integrity" "sha1-fe/Y15rju35vU7ZacZC+fa+QFoY="
   "resolved" "https://registry.npmmirror.com/esbuild-windows-64/download/esbuild-windows-64-0.13.8.tgz"
   "version" "0.13.8"
