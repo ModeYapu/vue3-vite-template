@@ -1,6 +1,6 @@
 <template>
 	<div class="title">Home</div>
-	<h1>travis-ci test 111</h1>
+	<h1>travis-ci test 333</h1>
 	<router-link to="/about">Home</router-link>
 </template>
 
