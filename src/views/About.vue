@@ -17,7 +17,7 @@ export default {
 			})
 		}
 		axios
-			.get('/users/XPoet')
+			.get('/users/ModeYapu')
 			.then((res) => {
 				console.log('res: ', res)
 			})
