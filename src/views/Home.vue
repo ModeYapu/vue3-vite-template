@@ -1,7 +1,7 @@
 <template>
 	<div class="title">Home</div>
 	<h1>github actions 666</h1>
-	<div>ddd</div>
+	<div>DDD</div>
 	<router-link to="/about">Home</router-link>
 </template>
 

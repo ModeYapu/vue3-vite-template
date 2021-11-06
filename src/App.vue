@@ -8,9 +8,7 @@ export default {
 	name: 'App',
 	setup() {
 		const router = useRouter()
-		router.afterEach(() => {
-			console.log('path::', router.currentRoute.value.path)
-		})
+		router.afterEach(() => {})
 	}
 }
 </script>
