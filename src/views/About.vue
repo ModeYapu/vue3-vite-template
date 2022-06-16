@@ -18,12 +18,8 @@ export default {
 		}
 		axios
 			.get('/users/ModeYapu')
-			.then((res) => {
-				console.log('res: ', res)
-			})
-			.catch((err) => {
-				console.log('err: ', err)
-			})
+			.then(() => {})
+			.catch(() => {})
 
 		return {
 			linkTo
